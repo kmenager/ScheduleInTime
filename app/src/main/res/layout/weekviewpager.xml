@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pager_title_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/pager_background_color"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/pager_text_color" />
+    </android.support.v4.view.ViewPager>
+
+    <io.github.kmenager.scheduleintime.ui.TransparentPanel
+        android:id="@+id/panel"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="7dp" >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10dp"
+            android:text="@string/transparent_panel"
+            android:textColor="#000000" />
+    </io.github.kmenager.scheduleintime.ui.TransparentPanel>
+
+</FrameLayout>

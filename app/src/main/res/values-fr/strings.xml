@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Schedule In Time</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_search">Recherche</string>
+    <string name="menu_refresh">Rafraîchir</string>
+    <string name="menu_about">A propos</string>
+    <string name="tab_week_view">Semaine</string>
+    <string name="transparent_panel">retour à la semaine en cours </string>
+    <string name="free_time_txt">Pas synchronisé</string>
+    <string name="year_txt">  Année </string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="error_diag_title">Erreur réseau</string>
+    <string name="error_diag_msg">Lancer les paramères ?</string>
+    <string name="database_updated">base mise à jour</string>
+    <string name="entreprise_txt">Entreprise</string>
+    <string name="calendar_updated">Calendrier mise à jour</string>
+
+    <!-- Events -->
+    <string name="event_progress_diag">Téléchargement des cours</string>
+    <string name="event_refresh_prog_diag">Mise à jour planning</string>
+    <!-- EventIntentExtra -->
+    <string name="event_intent_formation_id">formationId</string>
+    <string name="event_intent_year">year</string>
+    <string name="event_intent_week_of_year">weekOfYear</string>
+    <string name="event_intent_delete">delete</string>
+    <string name="event_intent_number_of_week">numberOfWeek</string>
+
+    <!-- Formation -->
+    <string name="formation_chooser_diag">Choisissez votre formation</string>
+    <string name="formation_progress_diag">Téléchargement des formations</string>
+    <!-- FormationIntent -->
+    <string name="formation_intent_list_name">formationsName</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Paramètres globaux</string>
+    <string name="refresh_settings">Paramètres rafraîchissement</string>
+
+    <!-- Settings Formation -->
+    <string name="formation_title">Formation</string>
+    <string name="formation_key">formation_key</string>
+    <string name="formation_diag_title">Choisissez votre formation</string>
+    <string name="formation_diag_cancel">Annuler</string>
+
+    <!-- Settings AutoStart -->
+    <string name="auto_start_title">Démarrage auto</string>
+    <string name="auto_start_summary">Mise à jour au démarrage</string>
+    <string name="auto_start_key">auto_start_key</string>
+
+    <!-- Settings Uploading to Calendar -->
+    <string name="up_calendar_title">Charger dans le calendrier</string>
+    <string name="up_calendar_key">up_calendar_key</string>
+
+    <!-- Settings Frequency -->
+    <string name="frequency_title">Période de synchro</string>
+    <string name="frequency_key">frequency_key</string>
+    <string name="frequency_diag_title">Période de synchro</string>
+    <string name="frequency_diag_cancel">Annuler</string>
+    <!-- Frequency switch -->
+    <string name="enable_refresh_key">enable_refresh_key</string>
+    <string name="enable_refresh_title">Rafraîchissement auto</string>
+
+</resources>

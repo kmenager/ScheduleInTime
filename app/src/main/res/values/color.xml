@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="child_backgroud_color">#ACC7E2</color>
+    <color name="child_text_color">#424242</color>
+   
+    <color name="group_background_color">#EAEBEF</color>
+<!--     <color name="child_text_color">#424242</color> -->
+<!--     <color name="group_background_color">#FF8800</color> -->
+    
+    <color name="pager_text_color">#ffffff</color>
+    <color name="pager_background_color">#33B5E5</color>
+<!--     <color name="pager_background_color">#444444</color> -->
+</resources>
